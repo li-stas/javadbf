@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>com.linuxense</groupId>
+	<artifactId>javadbf</artifactId>
+	<version>0.4.0</version>
+	
+	<name>JavaDBF</name>
+	<url>http://sarovar.org/projects/javadbf/</url>
+	
+	<scm>
+		<url>scm:csv:pserver:anonymous@cvs.sarovar.org:/cvsroot/javadbf:javadbf</url>
+	</scm>
+
+	<properties>
+		<maven.compiler.source>1.4</maven.compiler.source>
+		<maven.compiler.target>1.4</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.2</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	
+	<developers>
+		<developer>
+			<id>anil</id>
+			<name>Anil Kumar</name>
+			<email>anil@linuxense.com</email>
+			<roles>
+				<role>creator</role>
+			</roles>
+		</developer>
+	</developers>
+	
+</project>
